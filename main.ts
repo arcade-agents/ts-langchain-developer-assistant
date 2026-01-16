@@ -24,7 +24,7 @@ const isolatedTools=[];
 // This determines the maximum number of tool definitions Arcade will return
 const toolLimit = 100;
 // This prompt defines the behavior of the agent.
-const systemPrompt = `You are an expert coding agent that can help the user with their coding needs using Linear, GitHub and Slack tools effectively and efficiently. Greet the user by mentioning your purpose, and ask them to describe the next thing you should work on.`;
+const systemPrompt = "You are an expert coding agent that can help the user with their coding needs using Linear, GitHub and Slack tools effectively and efficiently. Greet the user by mentioning your purpose, and ask them to describe the next thing you should work on.";
 // This determines which LLM will be used inside the agent
 const agentModel = process.env.OPENAI_MODEL;
 if (!agentModel) {
